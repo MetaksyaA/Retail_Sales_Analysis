@@ -1,8 +1,5 @@
 # Retail Sales Analysis
 
-This project is a comprehensive analysis of retail sales data aimed at understanding fluctuations in client sales performance, customer demographics, and purchasing behavior. The analysis was conducted using Python and SQL, and it forms part of the Machine Learning and Data Science course at Armenian Code Academy.
-
-
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -19,53 +16,52 @@ This project is a comprehensive analysis of retail sales data aimed at understan
 6. [Recommendations](#recommendations)
 7. [Conclusion](#conclusion)
 
-## Overview
+## [Overview](#overview)
 
-This project helps people keep track of their tasks on specific dates. Users specify the year when they start the application, and only that year will be used throughout the runtime. Tasks can be exported as a text file for future reference.
+This project is a comprehensive analysis of retail sales data aimed at understanding fluctuations in client sales performance, customer demographics, and purchasing behavior. Using Excel, Python and SQL, the analysis addresses key questions such as how customer age and gender influence purchasing behavior, sales patterns across different time periods, product category appeal, and seasonal shopping habits. The insights gained from this analysis can help retailers optimize inventory, marketing strategies, and promotional efforts to enhance sales performance.
 
-## Dataset
+## [Dataset](#dataset)
 
 The analysis utilizes the Retail Sales and Customer Demographics dataset, which includes data on customer age, gender, purchase dates, product categories, quantities, and prices.
 
-## Analysis Questions and Key Insights
+## [Analysis Questions and Key Insights](#analysis-questions-and-key-insights)
 
-### 1. How does customer age and gender influence their purchasing behavior?
+### [1. How does customer age and gender influence their purchasing behavior?](#1-how-does-customer-age-and-gender-influence-their-purchasing-behavior)
 - There is no significant difference in product category preference between genders.
-- Women show a more stable spending pattern than men.
+- Women show a more stable spending pattern than men. However, the total spending of both groups over the year indicates no significant difference between the two.
 - The Old Adults age group makes the most purchases and spends the most cumulatively.
 
-### 2. Are there noticeable patterns in sales across different time periods?
-- Saturday generates the highest pre-tax sales of the week.
+### [2. Are there noticeable patterns in sales across different time periods?](#2-are-there-noticeable-patterns-in-sales-across-different-time-periods)
+- Saturday generates the highest sales of the week.
 - Different product categories peak on different days (e.g., beauty products peak on Tuesday and Monday).
 
-### 3. Which product categories hold the highest appeal among customers?
-- Beauty, clothing, and electronics are the top categories.
+### [3. Which product categories hold the highest appeal among customers?](#3-which-product-categories-hold-the-highest-appeal-among-customers)
 - Customers show almost similar interest levels across different product segments.
 
-### 4. What are the relationships between age, spending, and product preferences?
+### [4. What are the relationships between age, spending, and product preferences?](#4-what-are-the-relationships-between-age-spending-and-product-preferences)
 - Old Adults spend the most and show the highest interest across all product categories.
 - Middle-Aged and Young Adults exhibit similar spending patterns.
 
-### 5. How do customers adapt their shopping habits during seasonal trends?
+### [5. How do customers adapt their shopping habits during seasonal trends?](#5-how-do-customers-adapt-their-shopping-habits-during-seasonal-trends)
 - May sees the highest spending, while September sees the lowest.
 - Spending patterns vary by product category and time of year.
 
-### 6. Are there distinct purchasing behaviors based on the number of items bought per transaction?
+### [6. Are there distinct purchasing behaviors based on the number of items bought per transaction?](#6-are-there-distinct-purchasing-behaviors-based-on-the-number-of-items-bought-per-transaction)
 - Customers generally buy more than one item per transaction across all categories and demographics.
 
-## Features
+## [Features](#features)
 
-- *Data Analysis*: In-depth analysis using Python and SQL to answer the research questions.
-- *Visualization*: Charts and graphs to illustrate key findings.
-- *Recommendations*: Strategic suggestions based on analysis to improve sales performance.
+- Data Analysis: In-depth analysis using Excel, Python and SQL to answer the research questions.
+- Visualization: Charts and graphs to illustrate key findings.
+- Recommendations: Strategic suggestions based on analysis to improve sales performance.
 
-## Usage
+## [Usage](#usage)
 
-1. *Jupyter Notebook*: The primary analysis is conducted in a Jupyter Notebook (Retail_Sales_Analysis.ipynb).
-2. *SQL Queries*: The SQL queries used for data extraction and analysis are in the Retail_Sales_Analysis.sql file.
-3. *Data Files*: The dataset used for the analysis is provided in the Retail_Sales_Analysis.xlsx file.
+1. Jupyter Notebook: The primary analysis is conducted in a Jupyter Notebook (Retail_Sales_Analysis.ipynb).
+2. SQL Queries: The SQL queries used for data extraction and analysis are in the Retail_Sales_Analysis.sql file.
+3. Data Files: The dataset used for the analysis is provided in the Retail_Sales_Analysis.xlsx file.
 
-## Recommendations
+## [Recommendations](#recommendations)
 
 - Develop gender-neutral marketing campaigns.
 - Stock products that are universally popular.
@@ -74,10 +70,10 @@ The analysis utilizes the Retail Sales and Customer Demographics dataset, which 
 - Create targeted marketing campaigns for different age groups.
 - Offer seasonal promotions and bundle deals to encourage multi-item purchases.
 
-## Conclusion
+## [Conclusion](#conclusion)
 
 This project provides valuable insights into customer purchasing behavior, helping retailers optimize their inventory, marketing strategies, and promotional efforts to enhance sales performance.
 
 ---
 
-Feel free to reach out to any of the project team members for further information or collaboration.
+Please feel free to reach out for further information or collaboration.
